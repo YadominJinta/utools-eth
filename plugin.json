@@ -1,0 +1,38 @@
+{
+    "version": "0.0.1",
+    "pluginName": "ETH 小助手",
+    "description": "查看 etherscan, blocksec",
+    "author": "Yadomin",
+    "preload": "preload.js",
+    "features": [
+        {
+            "code": "eth",
+            "cmds": ["eth"]
+        },
+        {
+            "code": "bsc",
+            "cmds": ["bsc"]
+        },
+        {
+            "code": "polygon",
+            "cmds": ["polygon"]
+        },
+        {
+            "code": "optimism",
+            "cmds": ["optimism"]
+        },
+        {
+            "code": "fantom",
+            "cmds": ["ftm"]
+        },
+        {
+            "code": "gnosis",
+            "cmds": ["gnosis"]
+        },
+        {
+            "code": "arbitrum",
+            "cmds": ["arbi"]
+        }
+    ],
+    "logo": "assets/eth.png"
+}
